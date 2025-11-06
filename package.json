@@ -1,0 +1,25 @@
+{
+  "name": "aio-chat-ready",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "axios": "1.7.9",
+    "@supabase/supabase-js": "^2.45.3"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.13",
+    "postcss": "^8.4.49",
+    "autoprefixer": "^10.4.20"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  }
+}
